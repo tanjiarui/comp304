@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="MapsActivity"
+	android:orientation="vertical">
+
+	<fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/map"
+		android:name="com.google.android.gms.maps.SupportMapFragment"
+		map:uiZoomControls="true"
+		map:cameraZoom="10"
+		map:cameraTargetLat="43.64260456408618"
+		map:cameraTargetLng="-79.38705381006002"
+		map:mapType="hybrid"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+	<Spinner
+		android:id="@+id/map_type"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/common_google_signin_btn_text_light"
+		android:entries="@array/type"
+		android:gravity="center" />
+</FrameLayout>

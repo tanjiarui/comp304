@@ -1,0 +1,20 @@
+<resources>
+	<string name="app_name">find me a restaurant</string>
+	<string name="title_activity_maps">restaurant location</string>
+	<string name="cuisine_hint">select your cuisine</string>
+	<string name="restaurant_hint">select your restaurant</string>
+	<string-array name="type">
+		<item>map type</item>
+		<item>normal</item>
+		<item>satellite</item>
+		<item>terrain</item>
+		<item>hybrid</item>
+	</string-array>
+	<string-array name="cuisine">
+		<item>American</item>
+		<item>Italian</item>
+		<item>Japanese</item>
+		<item>Chinese</item>
+		<item>Indian</item>
+	</string-array>
+</resources>

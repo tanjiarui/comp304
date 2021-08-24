@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="EditActivity">
+
+	<TextView
+		android:id="@+id/student"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+		android:ems="10"
+		android:gravity="center"
+		android:textSize="18sp" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dp" >
+
+		<EditText
+			android:id="@+id/firstname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:autofillHints="first name"
+			android:ems="10"
+			android:gravity="center"
+			android:hint="@string/first_name"
+			android:inputType="textPersonName" />
+
+		<EditText
+			android:id="@+id/lastname"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:autofillHints="last name"
+			android:ems="10"
+			android:gravity="center"
+			android:hint="@string/last_name"
+			android:inputType="textPersonName" />
+	</LinearLayout>
+
+	<EditText
+		android:id="@+id/department"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:autofillHints="department"
+		android:gravity="center"
+		android:hint="@string/department"
+		android:inputType="textAutoCorrect" />
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="10dp" >
+		<EditText
+			android:id="@+id/faculty"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:autofillHints="faculty id"
+			android:ems="10"
+			android:gravity="center"
+			android:hint="@string/prompt_id"
+			android:inputType="number" />
+
+		<EditText
+			android:id="@+id/classroom"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:autofillHints="classroom id"
+			android:ems="10"
+			android:gravity="center"
+			android:hint="@string/classroom_id"
+			android:inputType="number" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="20dp" >
+
+		<Button
+			android:id="@+id/update"
+			style="@style/Widget.AppCompat.Button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:ems="12"
+			android:gravity="center"
+			android:onClick="update_delete"
+			android:text="@string/update"
+			android:textAllCaps="false" />
+
+		<Button
+			android:id="@+id/delete"
+			style="@style/Widget.AppCompat.Button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:ems="14"
+			android:gravity="center"
+			android:onClick="update_delete"
+			android:text="@string/delete"
+			android:textAllCaps="false" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="20dp" >
+
+		<TextView
+			android:id="@+id/floor"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:ems="10"
+			android:gravity="center"
+			android:textSize="18sp"
+			tools:text="@tools:sample/us_phones" />
+
+		<TextView
+			android:id="@+id/ac"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:ems="10"
+			android:gravity="center"
+			android:textSize="18sp"
+			tools:text="@tools:sample/us_phones" />
+	</LinearLayout>
+</LinearLayout>

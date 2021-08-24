@@ -1,0 +1,13 @@
+<resources>
+	<string name="app_name">calorie burned</string>
+	<string name="spinner_info">choose an exercise to see the calorie burned per hour</string>
+	<string name="canvas_info">calorie burned per hour</string>
+	<string-array name="exercise_type">
+		<item>type</item>
+		<item>jumping rope</item>
+		<item>swimming</item>
+		<item>bike riding</item>
+		<item>walking</item>
+		<item>running</item>
+	</string-array>
+</resources>

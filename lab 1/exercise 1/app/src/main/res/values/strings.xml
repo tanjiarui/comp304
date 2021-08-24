@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">exercise 1</string>
+	<string name="edit_message">input a message</string>
+	<string name="send">send</string>
+</resources>

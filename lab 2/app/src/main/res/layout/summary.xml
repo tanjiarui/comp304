@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="Summary">
+
+	<TextView
+		android:id="@+id/confirmation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:gravity="center"
+		android:text="@string/confirmation"
+		android:textColor="#FF9800"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/order_summary"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:gravity="center"
+		android:text="@string/order_summary"
+		android:textColor="#FF9800"
+		android:textSize="20sp" />
+
+	<CheckedTextView
+		android:id="@+id/name_summary"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:checkMark="@android:drawable/checkbox_on_background"
+		android:gravity="center"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textColor="#00BCD4"
+		android:textSize="16sp" />
+
+	<CheckedTextView
+		android:id="@+id/phone_summary"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:checkMark="@android:drawable/checkbox_on_background"
+		android:gravity="center"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textColor="#00BCD4"
+		android:textSize="16sp" />
+
+	<CheckedTextView
+		android:id="@+id/street_summary"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:checkMark="@android:drawable/checkbox_on_background"
+		android:gravity="center"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textColor="#00BCD4"
+		android:textSize="16sp" />
+
+	<CheckedTextView
+		android:id="@+id/city_summary"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:checkMark="@android:drawable/checkbox_on_background"
+		android:gravity="center"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textColor="#00BCD4"
+		android:textSize="16sp" />
+
+	<CheckedTextView
+		android:id="@+id/zip_summary"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:checkMark="@android:drawable/checkbox_on_background"
+		android:gravity="center"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textColor="#00BCD4"
+		android:textSize="16sp" />
+
+	<CheckedTextView
+		android:id="@+id/note_summary"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:gravity="center"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+		android:textColor="#00BCD4"
+		android:textSize="16sp"
+		android:visibility="gone" />
+
+	<Button
+		android:id="@+id/exit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:onClick="clear_cart"
+		android:text="@string/exit"
+		android:textAllCaps="false"
+		android:textColor="#3F51B5" />
+</LinearLayout>

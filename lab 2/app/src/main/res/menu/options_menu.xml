@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/CanadianPizza"
+		android:title="@string/canadian_pizza" />
+	<item
+		android:id="@+id/ChickenCaesar"
+		android:title="@string/chicken_caesar" />
+	<item
+		android:id="@+id/HawaiianPizza"
+		android:title="@string/hawaiian_pizza" />
+	<item
+		android:id="@+id/SmokeyMapleBacon"
+		android:title="@string/smokey_maple_bacon" />
+	<item
+		android:id="@+id/VeggieLover"
+		android:title="@string/veggie_lover" />
+	<item
+		android:id="@+id/ClearCart"
+		android:title="@string/clear_cart" />
+</menu>

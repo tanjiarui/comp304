@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="TweenedAnimation">
+
+	<ImageView
+		android:id="@+id/earth"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+		android:contentDescription="@string/earth"
+		android:gravity="center"
+		android:src="@drawable/earth"
+		android:visibility="invisible" />
+
+	<ImageView
+		android:id="@+id/solar"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_gravity="center"
+		android:contentDescription="@string/solar"
+		android:gravity="center"
+		android:src="@drawable/solar" />
+
+	<Button
+		android:id="@+id/run"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="100dp"
+		android:gravity="center"
+		android:onClick="run"
+		android:text="@string/start"
+		android:textAllCaps="false" />
+</LinearLayout>

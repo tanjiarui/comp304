@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="MainActivity">
+
+	<TextView
+		android:id="@+id/headline"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+		android:gravity="center"
+		android:text="@string/headline"
+		android:textColor="#03A9F4"
+		android:textSize="20sp" />
+
+	<Button
+		android:id="@+id/insert"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:onClick="button_handler"
+		android:text="@string/insert"
+		android:textAllCaps="false" />
+
+	<RadioGroup
+		android:id="@+id/symbols"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<RadioButton
+			android:id="@+id/symbol1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="@string/tesla" />
+
+		<RadioButton
+			android:id="@+id/symbol2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="@string/nio" />
+
+		<RadioButton
+			android:id="@+id/symbol3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="@string/xpeng" />
+
+		<RadioButton
+			android:id="@+id/symbol4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="@string/li_auto" />
+	</RadioGroup>
+
+	<Button
+		android:id="@+id/display"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:enabled="false"
+		android:gravity="center"
+		android:onClick="button_handler"
+		android:text="@string/display"
+		android:textAllCaps="false" />
+
+	<TextView
+		android:id="@+id/stock_info"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:textColor="#673AB7" />
+</LinearLayout>

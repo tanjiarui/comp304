@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+	<TextView
+		android:id="@+id/pizza_type"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:gravity="center" />
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:orientation="vertical">
+
+		<Spinner
+			android:id="@+id/size"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:dropDownWidth="wrap_content"
+			android:entries="@array/size"
+			android:spinnerMode="dropdown"
+			android:textAlignment="center" />
+
+		<EditText
+			android:id="@+id/number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dp"
+			android:autofillHints="1"
+			android:ems="2"
+			android:gravity="center"
+			android:hint="@string/integer"
+			android:inputType="number"
+			android:text="@string/default_number"
+			android:textSize="14sp" />
+
+	</LinearLayout>
+
+	<RadioGroup
+		android:id="@+id/style"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+
+		<RadioButton
+			android:id="@+id/thin"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/thin_crust" />
+
+		<RadioButton
+			android:id="@+id/thick"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/thick_crust" />
+	</RadioGroup>
+
+</LinearLayout>

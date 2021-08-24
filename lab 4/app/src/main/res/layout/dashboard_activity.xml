@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="Dashboard">
+
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/student_table"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="40dp"
+		android:scrollbars="vertical" />
+
+	<Button
+		android:id="@+id/add_student"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:gravity="center"
+		android:onClick="click_to_add"
+		android:text="@string/add_student"
+		android:textAllCaps="false" />
+</LinearLayout>

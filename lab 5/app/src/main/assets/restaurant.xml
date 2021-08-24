@@ -1,0 +1,174 @@
+<restaurant>
+	<item>
+		<title>Super Chicken</title>
+		<cuisine>American</cuisine>
+		<location>43.759313,-79.410812</location>
+		<phone>4165518850</phone>
+	</item>
+	<item>
+		<title>Five Guys</title>
+		<cuisine>American</cuisine>
+		<location>43.762438,-79.410812</location>
+		<phone>6474961847</phone>
+		<website>https://restaurants.fiveguys.ca/4841-yonge-street</website>
+	</item>
+	<item>
+		<title>Wonder Egg</title>
+		<cuisine>American</cuisine>
+		<location>43.763688,-79.411312</location>
+		<phone>6473454893</phone>
+	</item>
+	<item>
+		<title>McDonald's</title>
+		<cuisine>American</cuisine>
+		<location>43.761813,-79.411437</location>
+		<phone>4165128228</phone>
+		<website>https://www.mcdonalds.com/ca/en-ca/restaurant-locator.html?y_source=1_MTQ1MjA1NzEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D</website>
+	</item>
+	<item>
+		<title>A&amp;W Canada</title>
+		<cuisine>American</cuisine>
+		<location>43.762563,-79.410562</location>
+		<phone>4162250786</phone>
+		<website>http://aw.ca</website>
+	</item>
+	<item>
+		<title>Paisano's</title>
+		<cuisine>Italian</cuisine>
+		<location>43.764563,-79.400312</location>
+		<phone>4166135487</phone>
+		<website>http://www.thepaisanos.ca</website>
+	</item>
+	<item>
+		<title>Pizzaiolo</title>
+		<cuisine>Italian</cuisine>
+		<location>43.764313,-79.412062</location>
+		<phone>4165900002</phone>
+		<website>https://pizzaiolo.ca</website>
+	</item>
+	<item>
+		<title>Pizza Nova</title>
+		<cuisine>Italian</cuisine>
+		<location>43.757813,-79.409687</location>
+		<phone>4164390000</phone>
+		<website>https://pizzanova.com</website>
+	</item>
+	<item>
+		<title>Mamma's Pizza</title>
+		<cuisine>Italian</cuisine>
+		<location>43.764063,-79.411312</location>
+		<phone>4162220122</phone>
+		<website>http://www.mammaspizza.com</website>
+	</item>
+	<item>
+		<title>Blaze Pizza</title>
+		<cuisine>Italian</cuisine>
+		<location>43.762313,-79.410687</location>
+		<phone>6475600021</phone>
+		<website>http://blazepizza.com</website>
+	</item>
+	<item>
+		<title>Kinka Izakaya</title>
+		<cuisine>Japanese</cuisine>
+		<location>43.760437,-79.409812</location>
+		<phone>6473466246</phone>
+		<website>http://www.kinka.com</website>
+	</item>
+	<item>
+		<title>Hay Sushi</title>
+		<cuisine>Japanese</cuisine>
+		<location>43.764563,-79.410062</location>
+		<phone>6473509295</phone>
+		<website>https://order.ubereats.com/toronto/food-delivery/hay-sushi/O7DuD_tlSVCS4eTpwL1bCg</website>
+	</item>
+	<item>
+		<title>Michi Sushi</title>
+		<cuisine>Japanese</cuisine>
+		<location>43.765063,-79.400437</location>
+		<phone>4162248881</phone>
+		<website>http://www.michisushi.ca</website>
+	</item>
+	<item>
+		<title>Rain Izakaya Pub</title>
+		<cuisine>Japanese</cuisine>
+		<location>43.761563,-79.409187</location>
+		<phone>4169010088</phone>
+		<website>http://www.rainizakayapub.ca</website>
+	</item>
+	<item>
+		<title>Sushi Moto</title>
+		<cuisine>Japanese</cuisine>
+		<location>43.763938,-79.411312</location>
+		<phone>4162240741</phone>
+		<website>https://sushimoto.ca</website>
+	</item>
+	<item>
+		<title>Hotopia SiChuan Cuisine</title>
+		<cuisine>Chinese</cuisine>
+		<location>43.764438,-79.410313</location>
+		<phone>4165518832</phone>
+		<website>http://www.hotopiacanada.com</website>
+	</item>
+	<item>
+		<title>Wood House BBQ</title>
+		<cuisine>Chinese</cuisine>
+		<location>43.757938,-79.410313</location>
+		<phone>4165901315</phone>
+		<website>http://www.woodhousebbq.ca</website>
+	</item>
+	<item>
+		<title>Furama Dim Sum</title>
+		<cuisine>Chinese</cuisine>
+		<location>43.763063,-79.410313</location>
+		<phone>4162269633</phone>
+	</item>
+	<item>
+		<title>Rougamo &amp; Noodles</title>
+		<cuisine>Chinese</cuisine>
+		<location>43.764188,-79.411312</location>
+		<phone>6473430086</phone>
+		<website>https://rougamo-noodles.business.site/?utm_source=gmb&amp;utm_medium=referral</website>
+	</item>
+	<item>
+		<title>Eupin Chinese Takeout</title>
+		<cuisine>Chinese</cuisine>
+		<location>43.760188,-79.412062</location>
+		<phone>6476855572</phone>
+		<website>http://www.eupin.ca</website>
+	</item>
+	<item>
+		<title>Indian Crown</title>
+		<cuisine>Indian</cuisine>
+		<location>43.760063,-79.411812</location>
+		<phone>4167923714</phone>
+		<website>http://indiancrown.com</website>
+	</item>
+	<item>
+		<title>Butterchick</title>
+		<cuisine>Indian</cuisine>
+		<location>43.763063,-79.410313</location>
+		<phone>6473504696</phone>
+		<website>https://butterchick.com</website>
+	</item>
+	<item>
+		<title>Bombay Roti</title>
+		<cuisine>Indian</cuisine>
+		<location>43.760188,-79.411437</location>
+		<phone>6473477684</phone>
+		<website>http://www.bombayroti.ca</website>
+	</item>
+	<item>
+		<title>The Indian Cuisine</title>
+		<cuisine>Indian</cuisine>
+		<location>43.795313,-79.434812</location>
+		<phone>9053700880</phone>
+		<website>http://www.theindiancuisine.ca</website>
+	</item>
+	<item>
+		<title>Lotus Fine Indian Cuisine</title>
+		<cuisine>Indian</cuisine>
+		<location>43.723438,-79.416312</location>
+		<phone>4167899797</phone>
+		<website>https://lotusfineindiancuisine.com</website>
+	</item>
+</restaurant>

@@ -1,0 +1,31 @@
+<resources>
+	<string name="app_name">my application</string>
+	<string name="exercise_1">exercise 1</string>
+	<string name="exercise_2">exercise 2</string>
+	<string name="exercise_3">exercise 3</string>
+	<string name="thickness">line thickness</string>
+	<string name="color">line color</string>
+	<string name="red">red</string>
+	<string name="yellow">yellow</string>
+	<string name="green">green</string>
+	<string name="arrow_keys">arrow keys</string>
+	<string name="arrow">arrow</string>
+	<string name="clear">clear</string>
+	<string name="canvas">canvas</string>
+	<string name="x_text">x = %f</string>
+	<string name="y_text">y = %f</string>
+	<string name="frame">frame</string>
+	<string name="start">start</string>
+	<string name="stop">stop</string>
+	<string name="earth">earth</string>
+	<string name="solar">solar</string>
+	<string-array name="thickness_array">
+		<item>5</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>25</item>
+		<item>30</item>
+		<item>100</item>
+	</string-array>
+</resources>

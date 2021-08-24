@@ -1,0 +1,58 @@
+<resources>
+	<string name="app_name">centen pizza</string>
+	<string name="logo">logo</string>
+	<string name="order">order</string>
+	<string name="canadian_pizza">Canadian Pizza</string>
+	<string name="canadian_ingredient">smoked Turkey bacon, beef pepperoni, mushrooms, fresh tomatoes &amp; onions</string>
+	<string name="chicken_caesar">Chicken Caesar</string>
+	<string name="chicken_ingredient">chicken satay, cucumber with satay peanut sauce base</string>
+	<string name="hawaiian_pizza">Hawaiian Pizza</string>
+	<string name="hawaiian_ingredient">Turkey ham, Turkey bacon, diced pineapples, fresh tomatoes, mozzarella &amp; edam cheese</string>
+	<string name="smokey_maple_bacon">Smokey Maple Bacon</string>
+	<string name="smokey_ingredient">bacon, cheese, tomatoes, onions, lettuce &amp; thousand island dressing</string>
+	<string name="veggie_lover">Veggie Lover</string>
+	<string name="veggie_ingredient">onions, mushrooms, capsicum, olives, fresh tomatoes &amp; diced pineapple</string>
+	<string name="choose_type">Please pick the pizza type</string>
+	<string name="dynamic_rendering">dynamic rendering</string>
+	<string name="add_to_cart">add to cart</string>
+	<string name="clear_cart">Clear Cart</string>
+	<string name="thin_crust">thin crust</string>
+	<string name="thick_crust">thick crust</string>
+	<string name="integer">integer</string>
+	<string name="my_cart">my cart</string>
+	<string name="checkout">checkout</string>
+	<string name="default_number">1</string>
+	<string name="cart_info">Cart Info</string>
+	<string name="payment_hint">Please select payment channel</string>
+	<string name="cash">cash</string>
+	<string name="credit_card">credit card</string>
+	<string name="debit_card">debit card</string>
+	<string name="card_number">card number</string>
+	<string name="month">month</string>
+	<string name="year">year</string>
+	<string name="cvc">CVC</string>
+	<string name="delivery_info">Please provide delivery details</string>
+	<string name="name">name</string>
+	<string name="phone">phone</string>
+	<string name="email_address">email address</string>
+	<string name="street">street</string>
+	<string name="city">city</string>
+	<string name="zip">zip code</string>
+	<string name="note">note</string>
+	<string name="pay_now">pay now</string>
+	<string name="confirmation">Your pizza is on the way</string>
+	<string name="order_summary">Order Summary</string>
+	<string name="exit">exit</string>
+	<string-array name="size">
+		<item>small</item>
+		<item>medium</item>
+		<item>large</item>
+		<item>extra large</item>
+	</string-array>
+	<string-array name="city">
+		<item>Toronto</item>
+		<item>Ottawa</item>
+		<item>Vancouver</item>
+		<item>Montreal</item>
+	</string-array>
+</resources>

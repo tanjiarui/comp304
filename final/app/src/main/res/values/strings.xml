@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">stock query</string>
+	<string name="headline">Stock Information</string>
+	<string name="insert">insert stocks</string>
+	<string name="display">display stock</string>
+	<string name="format">company: %s\nquote: %.2fUSD</string>
+	<string name="tesla">TSLA</string>
+	<string name="nio">NIO</string>
+	<string name="xpeng">XPEV</string>
+	<string name="li_auto">LI</string>
+</resources>

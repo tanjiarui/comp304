@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="ShowRestaurant">
+
+	<TextView
+		android:id="@+id/restaurant_title"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="40dp"
+		android:gravity="center"
+		android:text="@string/restaurant_hint"
+		android:textSize="20sp"
+		android:textStyle="bold" />
+
+	<ListView
+		android:id="@+id/restaurant"
+		style="@android:style/Widget.ListView.Menu"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:dividerHeight="10dp" />
+</LinearLayout>
